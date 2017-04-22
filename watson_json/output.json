@@ -1,0 +1,7453 @@
+{
+  "solutions": [
+    {
+      "solution_ref": "401588497",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401588497\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200782270",
+      "status": "FRONT",
+      "shadows": [
+        "200747162",
+        "200748633",
+        "200738133"
+      ]
+    },
+    {
+      "solution_ref": "200737584",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200737584\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401597526",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401597526\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200736810",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200751764",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200751764\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200734752",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200734752\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401581501",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401575446",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2275
+            },
+            {
+              "key": "2",
+              "difference": 0.67
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 48
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1735
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 22
+            },
+            {
+              "key": "4",
+              "difference": 32
+            },
+            {
+              "key": "5",
+              "difference": 10
+            }
+          ]
+        },
+        {
+          "solution_ref": "200738273",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1485
+            },
+            {
+              "key": "2",
+              "difference": 0.27
+            },
+            {
+              "key": "3",
+              "difference": 9
+            },
+            {
+              "key": "4",
+              "difference": 23
+            },
+            {
+              "key": "5",
+              "difference": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200731125",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200744626",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 30435
+            },
+            {
+              "key": "1",
+              "difference": 1.8
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 98
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401613423",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401613423\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200747264",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 14480
+            },
+            {
+              "key": "1",
+              "difference": 1.6
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 154
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582166",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 12480
+            },
+            {
+              "key": "1",
+              "difference": 0.7
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 54
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1585
+            },
+            {
+              "key": "1",
+              "difference": 1.8
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 7
+            },
+            {
+              "key": "4",
+              "difference": 184
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200743582",
+      "status": "FRONT",
+      "shadow_me": [
+        "401582166"
+      ]
+    },
+    {
+      "solution_ref": "200744432",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 350
+            },
+            {
+              "key": "2",
+              "difference": 0.2
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401566582",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401566582\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401589475",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401589475\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401593850",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401593850\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401633815",
+      "status": "FRONT",
+      "shadows": [
+        "401627067",
+        "401566830",
+        "200749830"
+      ],
+      "shadow_me": [
+        "200741599"
+      ]
+    },
+    {
+      "solution_ref": "401598503",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401598503\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200730160",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200730160\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200738448",
+      "status": "FRONT",
+      "shadow_me": [
+        "200759705",
+        "401614314",
+        "200724973",
+        "401582893"
+      ]
+    },
+    {
+      "solution_ref": "200736144",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401589426",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 12625
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200734522",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200734522\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200732587",
+      "status": "FRONT",
+      "shadows": [
+        "200693543"
+      ]
+    },
+    {
+      "solution_ref": "200727089",
+      "status": "FRONT",
+      "shadows": [
+        "401582193"
+      ]
+    },
+    {
+      "solution_ref": "200745890",
+      "status": "FRONT",
+      "shadows": [
+        "200733292"
+      ],
+      "shadow_me": [
+        "200744626"
+      ]
+    },
+    {
+      "solution_ref": "401627496",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401627496\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401582166",
+      "status": "FRONT",
+      "shadows": [
+        "200743582",
+        "200747162",
+        "200744030",
+        "200748633",
+        "200732071",
+        "401574227"
+      ]
+    },
+    {
+      "solution_ref": "200746620",
+      "status": "FRONT",
+      "shadows": [
+        "200749830"
+      ],
+      "shadow_me": [
+        "200724973",
+        "200738665",
+        "401582893"
+      ]
+    },
+    {
+      "solution_ref": "401625997",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401625997\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200741067",
+      "status": "FRONT",
+      "shadow_me": [
+        "200742280",
+        "401598143",
+        "401575481",
+        "200734943",
+        "200693543"
+      ]
+    },
+    {
+      "solution_ref": "401633609",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3500
+            },
+            {
+              "key": "1",
+              "difference": 0.7
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 24
+            },
+            {
+              "key": "4",
+              "difference": 14
+            }
+          ]
+        },
+        {
+          "solution_ref": "401589426",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1020
+            },
+            {
+              "key": "2",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200737241",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200737241\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401631549",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401631549\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200700835",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200700835\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401596899",
+      "status": "FRONT",
+      "shadow_me": [
+        "200724205"
+      ]
+    },
+    {
+      "solution_ref": "200737127",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401633603",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401633603\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200751784",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200751784\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200730056",
+      "status": "FRONT",
+      "shadows": [
+        "200733230"
+      ]
+    },
+    {
+      "solution_ref": "401630212",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401630212\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401574196",
+      "status": "FRONT",
+      "shadows": [
+        "401630235",
+        "401566830"
+      ],
+      "shadow_me": [
+        "200741599"
+      ]
+    },
+    {
+      "solution_ref": "200733446",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4295
+            },
+            {
+              "key": "1",
+              "difference": 0.9
+            },
+            {
+              "key": "2",
+              "difference": 0.66
+            },
+            {
+              "key": "3",
+              "difference": 6
+            },
+            {
+              "key": "4",
+              "difference": 6
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "200759705",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1525
+            },
+            {
+              "key": "1",
+              "difference": 0.8
+            },
+            {
+              "key": "2",
+              "difference": 0.34
+            },
+            {
+              "key": "3",
+              "difference": 48
+            },
+            {
+              "key": "4",
+              "difference": 11
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401580756",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1410
+            },
+            {
+              "key": "1",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 48
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200747162",
+      "status": "FRONT",
+      "shadow_me": [
+        "200782270",
+        "401582166"
+      ]
+    },
+    {
+      "solution_ref": "401583467",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 28650
+            },
+            {
+              "key": "1",
+              "difference": 3.2
+            },
+            {
+              "key": "4",
+              "difference": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200742271",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200742271\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200731947",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200731947\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401628497",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401628497\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200721410",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200721410\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200728169",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200728169\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401612919",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401612919\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401627842",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401627842\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401630328",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2100
+            },
+            {
+              "key": "1",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 18
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200736281",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200743932",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200743932\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401601469",
+      "status": "FRONT",
+      "shadows": [
+        "200727569",
+        "200749830"
+      ]
+    },
+    {
+      "solution_ref": "200741195",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200741195\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200735195",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200735195\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401631651",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401631651\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401632502",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401632502\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401610732",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401610732\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401630681",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401630681\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401597750",
+      "status": "FRONT",
+      "shadows": [
+        "200733230"
+      ]
+    },
+    {
+      "solution_ref": "401613794",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 11640
+            },
+            {
+              "key": "1",
+              "difference": 0.4
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 52
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8675
+            },
+            {
+              "key": "1",
+              "difference": 1.9
+            },
+            {
+              "key": "2",
+              "difference": 0.15
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 70
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "200751208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7875
+            },
+            {
+              "key": "1",
+              "difference": 0.4
+            },
+            {
+              "key": "2",
+              "difference": 0.63
+            },
+            {
+              "key": "3",
+              "difference": 13
+            },
+            {
+              "key": "4",
+              "difference": 20
+            },
+            {
+              "key": "5",
+              "difference": 6
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582193",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7445
+            },
+            {
+              "key": "1",
+              "difference": 0.4
+            },
+            {
+              "key": "2",
+              "difference": 0.04
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 50
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "200733186",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5670
+            },
+            {
+              "key": "1",
+              "difference": 0.4
+            },
+            {
+              "key": "2",
+              "difference": 0.38
+            },
+            {
+              "key": "3",
+              "difference": 15
+            },
+            {
+              "key": "4",
+              "difference": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200731399",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401630686",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401630686\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200707599",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200707599\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200747290",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200759705",
+      "status": "FRONT",
+      "shadows": [
+        "200738448",
+        "401583116",
+        "401587363",
+        "401630235",
+        "200728306",
+        "401631573",
+        "401566830",
+        "200749830"
+      ]
+    },
+    {
+      "solution_ref": "200731831",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7770
+            },
+            {
+              "key": "2",
+              "difference": 0.85
+            },
+            {
+              "key": "3",
+              "difference": 8
+            },
+            {
+              "key": "4",
+              "difference": 8
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401614314",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2750
+            },
+            {
+              "key": "2",
+              "difference": 0.42
+            },
+            {
+              "key": "3",
+              "difference": 80
+            },
+            {
+              "key": "4",
+              "difference": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401582702",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401582702\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401583116",
+      "status": "FRONT",
+      "shadow_me": [
+        "200759705"
+      ]
+    },
+    {
+      "solution_ref": "200742280",
+      "status": "FRONT",
+      "shadows": [
+        "200741067"
+      ]
+    },
+    {
+      "solution_ref": "401583355",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401583355\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401583476",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401583476\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200745552",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200745552\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401628488",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401628488\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401583230",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401583230\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401587363",
+      "status": "FRONT",
+      "shadow_me": [
+        "200759705",
+        "401614314",
+        "200724973",
+        "200738665",
+        "200740440"
+      ]
+    },
+    {
+      "solution_ref": "401589783",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5365
+            },
+            {
+              "key": "2",
+              "difference": 0.33
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401593923",
+      "status": "FRONT",
+      "shadows": [
+        "200748633",
+        "200732071"
+      ]
+    },
+    {
+      "solution_ref": "200742459",
+      "status": "FRONT",
+      "shadows": [
+        "200733230",
+        "200759753",
+        "401566830"
+      ],
+      "shadow_me": [
+        "200741599"
+      ]
+    },
+    {
+      "solution_ref": "200736693",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 18375
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 32
+            }
+          ]
+        },
+        {
+          "solution_ref": "200736281",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 300
+            },
+            {
+              "key": "4",
+              "difference": 72
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401589426",
+      "status": "FRONT",
+      "shadows": [
+        "401630235",
+        "200728306",
+        "200740247",
+        "401566830"
+      ]
+    },
+    {
+      "solution_ref": "401626098",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401626098\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401580728",
+      "status": "FRONT",
+      "shadow_me": [
+        "401582628"
+      ]
+    },
+    {
+      "solution_ref": "401632897",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401632897\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200729082",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200733186",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401630236",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 995
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 1.35
+            },
+            {
+              "key": "3",
+              "difference": 23
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401610861",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401610861\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401630235",
+      "status": "FRONT",
+      "shadows": [
+        "200749830"
+      ],
+      "shadow_me": [
+        "401574196",
+        "200759705",
+        "401589426",
+        "200724973",
+        "200747126",
+        "401582893",
+        "200741599",
+        "401572289"
+      ]
+    },
+    {
+      "solution_ref": "200732532",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 36210
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "2",
+              "difference": 0.4
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 30
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        },
+        {
+          "solution_ref": "200734943",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 33955
+            },
+            {
+              "key": "1",
+              "difference": 0.7
+            },
+            {
+              "key": "2",
+              "difference": 0.38
+            },
+            {
+              "key": "3",
+              "difference": 15
+            },
+            {
+              "key": "4",
+              "difference": 60
+            }
+          ]
+        },
+        {
+          "solution_ref": "401611674",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 27190
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 20
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 25830
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "2",
+              "difference": 0.24
+            },
+            {
+              "key": "3",
+              "difference": 40
+            },
+            {
+              "key": "4",
+              "difference": 60
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "200745234",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 25500
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "2",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 11
+            },
+            {
+              "key": "4",
+              "difference": 28
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401612496",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401612496\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401614314",
+      "status": "FRONT",
+      "shadows": [
+        "200738448",
+        "401587363",
+        "401631573",
+        "200740440"
+      ]
+    },
+    {
+      "solution_ref": "200779611",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200779611\" has no value for column: \"power\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "power"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200731328",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200731328\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200746491",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 22305
+            },
+            {
+              "key": "1",
+              "difference": 2
+            },
+            {
+              "key": "2",
+              "difference": 0.13
+            },
+            {
+              "key": "4",
+              "difference": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200732658",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7615
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 1.75
+            },
+            {
+              "key": "3",
+              "difference": 15
+            },
+            {
+              "key": "4",
+              "difference": 4
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        },
+        {
+          "solution_ref": "200759705",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4845
+            },
+            {
+              "key": "2",
+              "difference": 1.43
+            },
+            {
+              "key": "3",
+              "difference": 57
+            },
+            {
+              "key": "4",
+              "difference": 9
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582893",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3115
+            },
+            {
+              "key": "2",
+              "difference": 1.3
+            },
+            {
+              "key": "3",
+              "difference": 37
+            },
+            {
+              "key": "4",
+              "difference": 5
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "401614314",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2595
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 1.32
+            },
+            {
+              "key": "3",
+              "difference": 87
+            },
+            {
+              "key": "4",
+              "difference": 4
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401601469",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 740
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 1.53
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 14
+            },
+            {
+              "key": "5",
+              "difference": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200705425",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200705425\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200714823",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200714823\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200726801",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5245
+            },
+            {
+              "key": "2",
+              "difference": 0.45
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 10
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401627067",
+      "status": "FRONT",
+      "shadow_me": [
+        "401633815",
+        "200742369",
+        "200745928",
+        "401597480",
+        "200743768",
+        "200746661"
+      ]
+    },
+    {
+      "solution_ref": "200728306",
+      "status": "FRONT",
+      "shadows": [
+        "200749830"
+      ],
+      "shadow_me": [
+        "200759705",
+        "401589426",
+        "200747126",
+        "200740487",
+        "200741599",
+        "401572289"
+      ]
+    },
+    {
+      "solution_ref": "401575706",
+      "status": "FRONT",
+      "shadows": [
+        "401631573",
+        "200749830"
+      ],
+      "shadow_me": [
+        "200724973",
+        "200747126",
+        "200738665",
+        "401582893"
+      ]
+    },
+    {
+      "solution_ref": "200747589",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200747589\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401589674",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8105
+            },
+            {
+              "key": "1",
+              "difference": 0.9
+            },
+            {
+              "key": "2",
+              "difference": 1.25
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 100
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582166",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6105
+            },
+            {
+              "key": "2",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200745613",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200745613\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200771448",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741599",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 675
+            },
+            {
+              "key": "1",
+              "difference": 0.2
+            },
+            {
+              "key": "2",
+              "difference": 0.08
+            },
+            {
+              "key": "3",
+              "difference": 8
+            },
+            {
+              "key": "4",
+              "difference": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200741373",
+      "status": "FRONT",
+      "shadow_me": [
+        "401582349"
+      ]
+    },
+    {
+      "solution_ref": "401597978",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401597978\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200734287",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1500
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.28
+            },
+            {
+              "key": "3",
+              "difference": 7
+            },
+            {
+              "key": "4",
+              "difference": 18
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401597611",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200751208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6310
+            },
+            {
+              "key": "2",
+              "difference": 0.55
+            },
+            {
+              "key": "3",
+              "difference": 14
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200736343",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 11375
+            },
+            {
+              "key": "2",
+              "difference": 0.6
+            },
+            {
+              "key": "4",
+              "difference": 52
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8410
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "4",
+              "difference": 70
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "200751208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7610
+            },
+            {
+              "key": "2",
+              "difference": 0.48
+            },
+            {
+              "key": "3",
+              "difference": 12
+            },
+            {
+              "key": "4",
+              "difference": 20
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        },
+        {
+          "solution_ref": "200727089",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2530
+            },
+            {
+              "key": "2",
+              "difference": 0.31
+            },
+            {
+              "key": "3",
+              "difference": 16
+            },
+            {
+              "key": "4",
+              "difference": 31
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200737086",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1000
+            },
+            {
+              "key": "2",
+              "difference": 0.1
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 28
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401581946",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 34630
+            },
+            {
+              "key": "1",
+              "difference": 0.7
+            },
+            {
+              "key": "3",
+              "difference": 6
+            },
+            {
+              "key": "4",
+              "difference": 104
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "200744626",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 860
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 269
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401614783",
+      "status": "FRONT",
+      "shadows": [
+        "200744980",
+        "200733230"
+      ]
+    },
+    {
+      "solution_ref": "401598143",
+      "status": "FRONT",
+      "shadows": [
+        "200741067",
+        "401631573",
+        "200737086",
+        "401582193"
+      ]
+    },
+    {
+      "solution_ref": "200729982",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200725764",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4300
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200779840",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740247",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9505
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 22
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "401597480",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9050
+            },
+            {
+              "key": "2",
+              "difference": 0.33
+            },
+            {
+              "key": "3",
+              "difference": 22
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 6
+            }
+          ]
+        },
+        {
+          "solution_ref": "200748659",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7430
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "2",
+              "difference": 0.07
+            },
+            {
+              "key": "3",
+              "difference": 19
+            },
+            {
+              "key": "4",
+              "difference": 26
+            }
+          ]
+        },
+        {
+          "solution_ref": "200728306",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6930
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "4",
+              "difference": 35
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5235
+            },
+            {
+              "key": "1",
+              "difference": 1.1
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 26
+            },
+            {
+              "key": "4",
+              "difference": 46
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200773063",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401630580",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2375
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 70
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401627051",
+      "status": "FRONT",
+      "shadows": [
+        "401575481"
+      ]
+    },
+    {
+      "solution_ref": "401597170",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401597170\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200749891",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200749891\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401612370",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401612370\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401581032",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200749533",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200751208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3200
+            },
+            {
+              "key": "2",
+              "difference": 0.63
+            },
+            {
+              "key": "3",
+              "difference": 9
+            },
+            {
+              "key": "4",
+              "difference": 20
+            },
+            {
+              "key": "5",
+              "difference": 6
+            }
+          ]
+        },
+        {
+          "solution_ref": "200733186",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 995
+            },
+            {
+              "key": "2",
+              "difference": 0.38
+            },
+            {
+              "key": "3",
+              "difference": 11
+            },
+            {
+              "key": "4",
+              "difference": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200724973",
+      "status": "FRONT",
+      "shadows": [
+        "200738448",
+        "200746620",
+        "401587363",
+        "401630235",
+        "401575706",
+        "200727569",
+        "401631573",
+        "200738273",
+        "401575446",
+        "401566830",
+        "200749830"
+      ]
+    },
+    {
+      "solution_ref": "200766538",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 14800
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 20
+            },
+            {
+              "key": "5",
+              "difference": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200725943",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200725943\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200727569",
+      "status": "FRONT",
+      "shadow_me": [
+        "401601469",
+        "200724973",
+        "200738665",
+        "401582893"
+      ]
+    },
+    {
+      "solution_ref": "401596974",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401596974\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200746719",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200746719\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401611615",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401611615\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200736356",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 13575
+            },
+            {
+              "key": "2",
+              "difference": 1.67
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 32
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 10610
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 1.07
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 50
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200751208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9810
+            },
+            {
+              "key": "2",
+              "difference": 1.55
+            },
+            {
+              "key": "3",
+              "difference": 14
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582193",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9380
+            },
+            {
+              "key": "2",
+              "difference": 0.95
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 30
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200727089",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4730
+            },
+            {
+              "key": "2",
+              "difference": 1.38
+            },
+            {
+              "key": "3",
+              "difference": 18
+            },
+            {
+              "key": "4",
+              "difference": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401632434",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401632434\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401631106",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401631106\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200738534",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401575481",
+      "status": "FRONT",
+      "shadows": [
+        "200741067"
+      ],
+      "shadow_me": [
+        "401627051"
+      ]
+    },
+    {
+      "solution_ref": "401613127",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401613127\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200779875",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200779875\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200749661",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401634173",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 36350
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 33385
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.4
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 30
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582193",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 32155
+            },
+            {
+              "key": "2",
+              "difference": 0.29
+            },
+            {
+              "key": "3",
+              "difference": 6
+            },
+            {
+              "key": "4",
+              "difference": 10
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200747208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 23450
+            },
+            {
+              "key": "2",
+              "difference": 0.67
+            },
+            {
+              "key": "3",
+              "difference": 5
+            },
+            {
+              "key": "4",
+              "difference": 1
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 23005
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.24
+            },
+            {
+              "key": "3",
+              "difference": 40
+            },
+            {
+              "key": "4",
+              "difference": 60
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401628175",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5500
+            },
+            {
+              "key": "1",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 18
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200745068",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200745068\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401629389",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401629389\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200744771",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200744771\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401613807",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401613807\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200747126",
+      "status": "FRONT",
+      "shadows": [
+        "401630235",
+        "200728306",
+        "401575706",
+        "401631573",
+        "200745928",
+        "200737086",
+        "200747327",
+        "200749830"
+      ]
+    },
+    {
+      "solution_ref": "200741277",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740454",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2910
+            },
+            {
+              "key": "4",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582166",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 455
+            },
+            {
+              "key": "1",
+              "difference": 1.7
+            },
+            {
+              "key": "4",
+              "difference": 74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401627755",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401627755\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200742369",
+      "status": "FRONT",
+      "shadows": [
+        "401627067",
+        "200745928",
+        "200733230",
+        "200759753",
+        "401566830"
+      ]
+    },
+    {
+      "solution_ref": "401572435",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401572435\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401588569",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401588569\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401597830",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401597830\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401631573",
+      "status": "FRONT",
+      "shadow_me": [
+        "200759705",
+        "401614314",
+        "401575706",
+        "401598143",
+        "200724973",
+        "200747126",
+        "200738273",
+        "401582893",
+        "200740440",
+        "401631398"
+      ]
+    },
+    {
+      "solution_ref": "200779867",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 15850
+            },
+            {
+              "key": "1",
+              "difference": 0.2
+            },
+            {
+              "key": "3",
+              "difference": 7
+            },
+            {
+              "key": "4",
+              "difference": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401597153",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200744626",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 56935
+            },
+            {
+              "key": "1",
+              "difference": 0.7
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 87
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200738665",
+      "status": "FRONT",
+      "shadows": [
+        "200746620",
+        "401587363",
+        "401575706",
+        "200727569",
+        "200747327"
+      ]
+    },
+    {
+      "solution_ref": "200732443",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200732443\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401582349",
+      "status": "FRONT",
+      "shadows": [
+        "200741373"
+      ]
+    },
+    {
+      "solution_ref": "401575014",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401575014\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401583433",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401629132",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401629132\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401589093",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401582340",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401582340\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401589096",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200745234",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2850
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.17
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 27
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200730708",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200730708\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401601387",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401601387\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401597708",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401597708\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200771536",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200744834",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200742280",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 655
+            },
+            {
+              "key": "1",
+              "difference": 0.3
+            },
+            {
+              "key": "2",
+              "difference": 0.1
+            },
+            {
+              "key": "3",
+              "difference": 5
+            },
+            {
+              "key": "4",
+              "difference": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200771659",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7570
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 52
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200747549",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 11430
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "2",
+              "difference": 0.24
+            },
+            {
+              "key": "3",
+              "difference": 39
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3400
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 20
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200738273",
+      "status": "FRONT",
+      "shadows": [
+        "401631573",
+        "200733230",
+        "401566830",
+        "200749830"
+      ],
+      "shadow_me": [
+        "200724973"
+      ]
+    },
+    {
+      "solution_ref": "200745928",
+      "status": "FRONT",
+      "shadows": [
+        "401627067",
+        "200733230"
+      ],
+      "shadow_me": [
+        "200747126",
+        "200742369",
+        "401597480",
+        "200743768",
+        "200741599",
+        "200746661"
+      ]
+    },
+    {
+      "solution_ref": "200734115",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200737740",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 14130
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.24
+            },
+            {
+              "key": "3",
+              "difference": 40
+            },
+            {
+              "key": "4",
+              "difference": 8
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200749661",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 12905
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200736281",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9400
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6100
+            },
+            {
+              "key": "1",
+              "difference": 1
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 28
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401581032",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1065
+            },
+            {
+              "key": "1",
+              "difference": 1.6
+            },
+            {
+              "key": "4",
+              "difference": 43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401610781",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401610781\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401583528",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740247",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6840
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "2",
+              "difference": 1.5
+            },
+            {
+              "key": "4",
+              "difference": 22
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401597480",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6385
+            },
+            {
+              "key": "2",
+              "difference": 1.83
+            },
+            {
+              "key": "3",
+              "difference": 20
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "200675652",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4850
+            },
+            {
+              "key": "1",
+              "difference": 0.4
+            },
+            {
+              "key": "2",
+              "difference": 1.03
+            },
+            {
+              "key": "3",
+              "difference": 67
+            },
+            {
+              "key": "4",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401630235",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4175
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "2",
+              "difference": 1.25
+            },
+            {
+              "key": "4",
+              "difference": 35
+            }
+          ]
+        },
+        {
+          "solution_ref": "200743768",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3320
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "2",
+              "difference": 1.4
+            },
+            {
+              "key": "3",
+              "difference": 11
+            },
+            {
+              "key": "4",
+              "difference": 17
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200729795",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200729795\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401597480",
+      "status": "FRONT",
+      "shadows": [
+        "401627067",
+        "200745928",
+        "200733230",
+        "200759753",
+        "401566830"
+      ]
+    },
+    {
+      "solution_ref": "200749044",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 10700
+            },
+            {
+              "key": "1",
+              "difference": 0.9
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 100
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200744030",
+      "status": "FRONT",
+      "shadows": [
+        "200732071"
+      ],
+      "shadow_me": [
+        "401582166"
+      ]
+    },
+    {
+      "solution_ref": "401612858",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401612858\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401573963",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401573963\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200749049",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200749049\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200730319",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200730319\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401582310",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200738448",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5675
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 6
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3575
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 1.75
+            },
+            {
+              "key": "3",
+              "difference": 27
+            },
+            {
+              "key": "4",
+              "difference": 6
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "401575706",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1670
+            },
+            {
+              "key": "2",
+              "difference": 1.33
+            },
+            {
+              "key": "3",
+              "difference": 5
+            },
+            {
+              "key": "4",
+              "difference": 7
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "200759705",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 805
+            },
+            {
+              "key": "2",
+              "difference": 1.43
+            },
+            {
+              "key": "3",
+              "difference": 69
+            },
+            {
+              "key": "4",
+              "difference": 11
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401589184",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200734918",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 18845
+            },
+            {
+              "key": "1",
+              "difference": 2.7
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 90
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "401593923",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1295
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 14
+            },
+            {
+              "key": "4",
+              "difference": 55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200725873",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200725764",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 12000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200748633",
+      "status": "FRONT",
+      "shadow_me": [
+        "200782270",
+        "401582166",
+        "401593923",
+        "200468528",
+        "200724205"
+      ]
+    },
+    {
+      "solution_ref": "200740596",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200734943",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9420
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.38
+            },
+            {
+              "key": "3",
+              "difference": 14
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401575481",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8760
+            },
+            {
+              "key": "2",
+              "difference": 0.12
+            },
+            {
+              "key": "3",
+              "difference": 15
+            },
+            {
+              "key": "4",
+              "difference": 17
+            }
+          ]
+        },
+        {
+          "solution_ref": "200742280",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7570
+            },
+            {
+              "key": "2",
+              "difference": 0.7
+            },
+            {
+              "key": "3",
+              "difference": 8
+            },
+            {
+              "key": "4",
+              "difference": 17
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "401574227",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3215
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.5
+            },
+            {
+              "key": "4",
+              "difference": 37
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2765
+            },
+            {
+              "key": "1",
+              "difference": 2.6
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200732061",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401598101",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401598101\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200751258",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200732587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6705
+            },
+            {
+              "key": "2",
+              "difference": 0.01
+            },
+            {
+              "key": "3",
+              "difference": 9
+            },
+            {
+              "key": "4",
+              "difference": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200737511",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200726011",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 14800
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401612842",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 81205
+            },
+            {
+              "key": "1",
+              "difference": 2.6
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 6
+            },
+            {
+              "key": "4",
+              "difference": 10
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200737642",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 69105
+            },
+            {
+              "key": "1",
+              "difference": 1.4
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 51
+            }
+          ]
+        },
+        {
+          "solution_ref": "200751381",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 64455
+            },
+            {
+              "key": "1",
+              "difference": 2.4
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 232
+            }
+          ]
+        },
+        {
+          "solution_ref": "200744626",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 47435
+            },
+            {
+              "key": "1",
+              "difference": 2.4
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 175
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200745890",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 22600
+            },
+            {
+              "key": "1",
+              "difference": 1.7
+            },
+            {
+              "key": "4",
+              "difference": 102
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200736669",
+      "status": "FRONT",
+      "shadows": [
+        "200749830"
+      ]
+    },
+    {
+      "solution_ref": "401632440",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401632440\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401581355",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1795
+            },
+            {
+              "key": "2",
+              "difference": 0.44
+            },
+            {
+              "key": "3",
+              "difference": 9
+            },
+            {
+              "key": "4",
+              "difference": 14
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200732869",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200732869\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401583414",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5260
+            },
+            {
+              "key": "2",
+              "difference": 0.65
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200733836",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200733836\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401612170",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401612170\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401575238",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 13030
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 10065
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.4
+            },
+            {
+              "key": "4",
+              "difference": 30
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582193",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8835
+            },
+            {
+              "key": "2",
+              "difference": 0.29
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 10
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "200733186",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 7060
+            },
+            {
+              "key": "2",
+              "difference": 0.63
+            },
+            {
+              "key": "3",
+              "difference": 14
+            },
+            {
+              "key": "4",
+              "difference": 28
+            }
+          ]
+        },
+        {
+          "solution_ref": "200747208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 130
+            },
+            {
+              "key": "2",
+              "difference": 0.67
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 1
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401628189",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 13580
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.15
+            },
+            {
+              "key": "3",
+              "difference": 19
+            },
+            {
+              "key": "4",
+              "difference": 50
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "200732587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 13180
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.22
+            },
+            {
+              "key": "3",
+              "difference": 7
+            },
+            {
+              "key": "4",
+              "difference": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200748641",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200748641\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401581231",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401581231\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200740247",
+      "status": "FRONT",
+      "shadows": [
+        "200733230",
+        "200759753"
+      ],
+      "shadow_me": [
+        "401589426",
+        "401572289"
+      ]
+    },
+    {
+      "solution_ref": "200740487",
+      "status": "FRONT",
+      "shadows": [
+        "200728306",
+        "200737086",
+        "401582193",
+        "401566830"
+      ]
+    },
+    {
+      "solution_ref": "200737086",
+      "status": "FRONT",
+      "shadow_me": [
+        "401598143",
+        "200747126",
+        "200740487",
+        "200745234"
+      ]
+    },
+    {
+      "solution_ref": "401566521",
+      "status": "FRONT",
+      "shadows": [
+        "200748862"
+      ]
+    },
+    {
+      "solution_ref": "200748659",
+      "status": "FRONT",
+      "shadows": [
+        "401566830"
+      ]
+    },
+    {
+      "solution_ref": "200772768",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2970
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 52
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200747207",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200747207\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200747208",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200743768",
+      "status": "FRONT",
+      "shadows": [
+        "401627067",
+        "200745928",
+        "200733230",
+        "200759753"
+      ],
+      "shadow_me": [
+        "200741599"
+      ]
+    },
+    {
+      "solution_ref": "200732071",
+      "status": "FRONT",
+      "shadow_me": [
+        "401582166",
+        "401593923",
+        "200744030"
+      ]
+    },
+    {
+      "solution_ref": "200759791",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4445
+            },
+            {
+              "key": "2",
+              "difference": 0.33
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 80
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200743649",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 27575
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6200
+            },
+            {
+              "key": "1",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 80
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200725318",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2100
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200468528",
+      "status": "FRONT",
+      "shadows": [
+        "200748633",
+        "200748862"
+      ]
+    },
+    {
+      "solution_ref": "200688940",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200688940\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200724406",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200724406\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200739148",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200739148\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200759315",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200759315\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401614376",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401581032",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4660
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200737642",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200736556",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200736556\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200711330",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200711330\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200779953",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200779953\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200734019",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200745234",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2850
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.13
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 28
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401632231",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401632231\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401575446",
+      "status": "FRONT",
+      "shadow_me": [
+        "200724973"
+      ]
+    },
+    {
+      "solution_ref": "200751381",
+      "status": "FRONT",
+      "shadows": [
+        "200733292"
+      ]
+    },
+    {
+      "solution_ref": "401582893",
+      "status": "FRONT",
+      "shadows": [
+        "200738448",
+        "200746620",
+        "401630235",
+        "401575706",
+        "200727569",
+        "401631573",
+        "200749830"
+      ]
+    },
+    {
+      "solution_ref": "200726944",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200726944\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200747327",
+      "status": "FRONT",
+      "shadows": [
+        "200749830"
+      ],
+      "shadow_me": [
+        "200747126",
+        "200738665"
+      ]
+    },
+    {
+      "solution_ref": "200747206",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200747206\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401626239",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401626239\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200741587",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401589057",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401589057\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200737891",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200737891\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200737093",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200468528",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 335
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200744626",
+      "status": "FRONT",
+      "shadows": [
+        "200745890",
+        "200733292"
+      ]
+    },
+    {
+      "solution_ref": "200745716",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200747208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 15175
+            },
+            {
+              "key": "2",
+              "difference": 0.17
+            },
+            {
+              "key": "4",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200773063",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9375
+            },
+            {
+              "key": "2",
+              "difference": 0.33
+            },
+            {
+              "key": "4",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200725318",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2600
+            },
+            {
+              "key": "2",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401566635",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401566635\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200732084",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 18530
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 12
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        },
+        {
+          "solution_ref": "401611674",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6545
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 20
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200736281",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 455
+            },
+            {
+              "key": "4",
+              "difference": 52
+            },
+            {
+              "key": "5",
+              "difference": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200733292",
+      "status": "FRONT",
+      "shadow_me": [
+        "200745890",
+        "200751381",
+        "200744626"
+      ]
+    },
+    {
+      "solution_ref": "401594088",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401611674",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6200
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 5
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401611548",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401611548\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200734266",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200725764",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 22300
+            },
+            {
+              "key": "1",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401594089",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401594089\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200737899",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200737899\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401598566",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401598566\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401633311",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200742459",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6750
+            },
+            {
+              "key": "1",
+              "difference": 0.3
+            },
+            {
+              "key": "2",
+              "difference": 0.17
+            },
+            {
+              "key": "3",
+              "difference": 7
+            },
+            {
+              "key": "4",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "200731190",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4250
+            },
+            {
+              "key": "1",
+              "difference": 0.3
+            },
+            {
+              "key": "2",
+              "difference": 0.02
+            },
+            {
+              "key": "3",
+              "difference": 23
+            },
+            {
+              "key": "4",
+              "difference": 11
+            }
+          ]
+        },
+        {
+          "solution_ref": "200745324",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 960
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 18
+            },
+            {
+              "key": "4",
+              "difference": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200736445",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200736445\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401630280",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401630280\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401614007",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401614007\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200726011",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200734943",
+      "status": "FRONT",
+      "shadows": [
+        "200741067"
+      ]
+    },
+    {
+      "solution_ref": "401581213",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200744980",
+      "status": "FRONT",
+      "shadow_me": [
+        "401614783",
+        "401572289"
+      ]
+    },
+    {
+      "solution_ref": "401612190",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401612190\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200746365",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200738448",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4580
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2480
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 27
+            },
+            {
+              "key": "4",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401575706",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 575
+            },
+            {
+              "key": "2",
+              "difference": 0.33
+            },
+            {
+              "key": "3",
+              "difference": 5
+            },
+            {
+              "key": "4",
+              "difference": 3
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200746123",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200746123\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200741599",
+      "status": "FRONT",
+      "shadows": [
+        "401633815",
+        "401574196",
+        "200742459",
+        "401630235",
+        "200728306",
+        "200745928",
+        "200743768",
+        "200751208",
+        "200749830"
+      ]
+    },
+    {
+      "solution_ref": "401573715",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401590497",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401590497\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200741087",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200741087\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200725318",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200751208",
+      "status": "FRONT",
+      "shadows": [
+        "401582193",
+        "200749830"
+      ],
+      "shadow_me": [
+        "200741599"
+      ]
+    },
+    {
+      "solution_ref": "200737941",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200737941\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401578250",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 20170
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.4
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9790
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.24
+            },
+            {
+              "key": "3",
+              "difference": 38
+            },
+            {
+              "key": "4",
+              "difference": 32
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200745234",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9460
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 9
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200749661",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8565
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 24
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200741587",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1760
+            },
+            {
+              "key": "1",
+              "difference": 1
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 52
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401582628",
+      "status": "FRONT",
+      "shadows": [
+        "401580728",
+        "200748862"
+      ]
+    },
+    {
+      "solution_ref": "200734555",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200734555\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401611674",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200736738",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200736738\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200729234",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401583847",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401583847\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401614831",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401614831\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401575661",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 43345
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 35
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 30450
+            },
+            {
+              "key": "1",
+              "difference": 0.2
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 7
+            },
+            {
+              "key": "4",
+              "difference": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200735525",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200735525\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200675652",
+      "status": "FRONT",
+      "shadows": [
+        "401566830"
+      ]
+    },
+    {
+      "solution_ref": "200738916",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200734943",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3560
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.38
+            },
+            {
+              "key": "3",
+              "difference": 10
+            },
+            {
+              "key": "4",
+              "difference": 19
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401575481",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 2900
+            },
+            {
+              "key": "2",
+              "difference": 0.12
+            },
+            {
+              "key": "3",
+              "difference": 11
+            },
+            {
+              "key": "4",
+              "difference": 24
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200742280",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1710
+            },
+            {
+              "key": "2",
+              "difference": 0.7
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 24
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401575668",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401582628",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 43745
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 35
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 30850
+            },
+            {
+              "key": "1",
+              "difference": 0.2
+            },
+            {
+              "key": "2",
+              "difference": 1.5
+            },
+            {
+              "key": "3",
+              "difference": 6
+            },
+            {
+              "key": "4",
+              "difference": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200741404",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200741404\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401627343",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401627343\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401582193",
+      "status": "FRONT",
+      "shadow_me": [
+        "200727089",
+        "401598143",
+        "200740487",
+        "200751208"
+      ]
+    },
+    {
+      "solution_ref": "200745324",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200740440",
+      "status": "FRONT",
+      "shadows": [
+        "401587363",
+        "401631573"
+      ],
+      "shadow_me": [
+        "401614314"
+      ]
+    },
+    {
+      "solution_ref": "401610914",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401610914\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401610912",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401630507",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401630507\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401613050",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401613050\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401590269",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401590269\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401631398",
+      "status": "FRONT",
+      "shadows": [
+        "401631573"
+      ]
+    },
+    {
+      "solution_ref": "200733230",
+      "status": "FRONT",
+      "shadow_me": [
+        "200730056",
+        "401597750",
+        "200742459",
+        "401614783",
+        "200742369",
+        "200738273",
+        "200745928",
+        "401597480",
+        "200740247",
+        "200743768",
+        "200746661",
+        "200759753",
+        "200731190"
+      ]
+    },
+    {
+      "solution_ref": "401597451",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401597451\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200732942",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401613856",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 9660
+            },
+            {
+              "key": "2",
+              "difference": 0.65
+            },
+            {
+              "key": "3",
+              "difference": 1
+            },
+            {
+              "key": "4",
+              "difference": 10
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401583730",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200732061",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5530
+            },
+            {
+              "key": "2",
+              "difference": 0.05
+            },
+            {
+              "key": "3",
+              "difference": 15
+            },
+            {
+              "key": "4",
+              "difference": 5
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401625838",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401625838\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200746661",
+      "status": "FRONT",
+      "shadows": [
+        "401627067",
+        "200745928",
+        "200733230",
+        "200759753",
+        "401566830"
+      ]
+    },
+    {
+      "solution_ref": "401574227",
+      "status": "FRONT",
+      "shadow_me": [
+        "401582166"
+      ]
+    },
+    {
+      "solution_ref": "401589395",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 6270
+            },
+            {
+              "key": "2",
+              "difference": 0.33
+            },
+            {
+              "key": "3",
+              "difference": 2
+            },
+            {
+              "key": "4",
+              "difference": 7
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401593865",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401593865\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200721613",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200721613\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200738133",
+      "status": "FRONT",
+      "shadow_me": [
+        "200782270"
+      ]
+    },
+    {
+      "solution_ref": "401566602",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401566602\" has no value for column: \"engineSize\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "engineSize"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401572289",
+      "status": "FRONT",
+      "shadows": [
+        "401630235",
+        "200728306",
+        "200740247",
+        "200744980"
+      ]
+    },
+    {
+      "solution_ref": "401630651",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401630651\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401566725",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200771536",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 10355
+            },
+            {
+              "key": "2",
+              "difference": 0.13
+            },
+            {
+              "key": "3",
+              "difference": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200759753",
+      "status": "FRONT",
+      "shadows": [
+        "200733230"
+      ],
+      "shadow_me": [
+        "200742459",
+        "200742369",
+        "401597480",
+        "200740247",
+        "200743768",
+        "200746661",
+        "200731190"
+      ]
+    },
+    {
+      "solution_ref": "401594157",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401594157\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401611456",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401611456\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200734699",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200734699\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200734215",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200734215\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401631622",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401631622\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200777976",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200744626",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 19235
+            },
+            {
+              "key": "1",
+              "difference": 1.8
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 83
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401598072",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401598072\" has no value for column: \"MPGCombined\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "MPGCombined"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200693543",
+      "status": "FRONT",
+      "shadows": [
+        "200741067"
+      ],
+      "shadow_me": [
+        "200732587"
+      ]
+    },
+    {
+      "solution_ref": "401633360",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401633360\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200724205",
+      "status": "FRONT",
+      "shadows": [
+        "401596899",
+        "200748633"
+      ]
+    },
+    {
+      "solution_ref": "200727951",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200740454",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200729336",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "200745347",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200745347\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200746207",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200747126",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 14230
+            },
+            {
+              "key": "2",
+              "difference": 0.5
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401583390",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401583390\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200749717",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200468528",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 4635
+            },
+            {
+              "key": "1",
+              "difference": 0.6
+            },
+            {
+              "key": "4",
+              "difference": 102
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200736083",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200736083\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401611906",
+      "status": "FRONT"
+    },
+    {
+      "solution_ref": "401593993",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740454",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8510
+            },
+            {
+              "key": "4",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401594048",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401594048\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200731190",
+      "status": "FRONT",
+      "shadows": [
+        "200733230",
+        "200759753"
+      ]
+    },
+    {
+      "solution_ref": "401594049",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401594049\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401566830",
+      "status": "FRONT",
+      "shadow_me": [
+        "401633815",
+        "401574196",
+        "200759705",
+        "200742459",
+        "401589426",
+        "200724973",
+        "200742369",
+        "200738273",
+        "401597480",
+        "200740487",
+        "200748659",
+        "200675652",
+        "200746661"
+      ]
+    },
+    {
+      "solution_ref": "401590247",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401590247\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200735553",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200735553\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200739910",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"200739910\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401632265",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 8295
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.75
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "5",
+              "difference": 4
+            }
+          ]
+        },
+        {
+          "solution_ref": "200759705",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5525
+            },
+            {
+              "key": "2",
+              "difference": 0.43
+            },
+            {
+              "key": "3",
+              "difference": 45
+            },
+            {
+              "key": "4",
+              "difference": 5
+            },
+            {
+              "key": "5",
+              "difference": 2
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582893",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3795
+            },
+            {
+              "key": "2",
+              "difference": 0.3
+            },
+            {
+              "key": "3",
+              "difference": 25
+            },
+            {
+              "key": "4",
+              "difference": 1
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401614314",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3275
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.32
+            },
+            {
+              "key": "3",
+              "difference": 75
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401614168",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401614168\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401582739",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200782270",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 39685
+            },
+            {
+              "key": "1",
+              "difference": 0.7
+            },
+            {
+              "key": "3",
+              "difference": 7
+            },
+            {
+              "key": "4",
+              "difference": 102
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "200744626",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 5915
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 3
+            },
+            {
+              "key": "4",
+              "difference": 267
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "401575895",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 3600
+            },
+            {
+              "key": "1",
+              "difference": 0.5
+            },
+            {
+              "key": "2",
+              "difference": 0.5
+            },
+            {
+              "key": "3",
+              "difference": 12
+            },
+            {
+              "key": "4",
+              "difference": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200737738",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200740487",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 21975
+            },
+            {
+              "key": "2",
+              "difference": 1
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 32
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "401598143",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 19010
+            },
+            {
+              "key": "1",
+              "difference": 1.5
+            },
+            {
+              "key": "2",
+              "difference": 0.4
+            },
+            {
+              "key": "3",
+              "difference": 4
+            },
+            {
+              "key": "4",
+              "difference": 50
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200751208",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 18210
+            },
+            {
+              "key": "2",
+              "difference": 0.88
+            },
+            {
+              "key": "3",
+              "difference": 16
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        },
+        {
+          "solution_ref": "401582193",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 17780
+            },
+            {
+              "key": "2",
+              "difference": 0.29
+            },
+            {
+              "key": "3",
+              "difference": 6
+            },
+            {
+              "key": "4",
+              "difference": 30
+            },
+            {
+              "key": "5",
+              "difference": 1
+            }
+          ]
+        },
+        {
+          "solution_ref": "200727089",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 13130
+            },
+            {
+              "key": "2",
+              "difference": 0.71
+            },
+            {
+              "key": "3",
+              "difference": 20
+            },
+            {
+              "key": "4",
+              "difference": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200748862",
+      "status": "FRONT",
+      "shadow_me": [
+        "401566521",
+        "200468528",
+        "401582628",
+        "200725764"
+      ]
+    },
+    {
+      "solution_ref": "200725764",
+      "status": "FRONT",
+      "shadows": [
+        "200748862"
+      ]
+    },
+    {
+      "solution_ref": "200749830",
+      "status": "FRONT",
+      "shadow_me": [
+        "401633815",
+        "200746620",
+        "401601469",
+        "200759705",
+        "401630235",
+        "200728306",
+        "401575706",
+        "200724973",
+        "200747126",
+        "200738273",
+        "200736669",
+        "401582893",
+        "200747327",
+        "200741599",
+        "200751208"
+      ]
+    },
+    {
+      "solution_ref": "401580680",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401580680\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "200724435",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 1105
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.39
+            },
+            {
+              "key": "3",
+              "difference": 17
+            },
+            {
+              "key": "4",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200743056",
+      "status": "EXCLUDED",
+      "excluded_by": [
+        {
+          "solution_ref": "200724973",
+          "objectives": [
+            {
+              "key": "0",
+              "difference": 655
+            },
+            {
+              "key": "1",
+              "difference": 0.1
+            },
+            {
+              "key": "2",
+              "difference": 0.25
+            },
+            {
+              "key": "3",
+              "difference": 26
+            },
+            {
+              "key": "4",
+              "difference": 2
+            },
+            {
+              "key": "5",
+              "difference": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "solution_ref": "200745234",
+      "status": "FRONT",
+      "shadows": [
+        "200737086"
+      ]
+    },
+    {
+      "solution_ref": "401628203",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401628203\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    },
+    {
+      "solution_ref": "401583150",
+      "status": "INCOMPLETE",
+      "status_cause": {
+        "message": "Option \"401583150\" has no value for column: \"averageRating\"",
+        "error_code": "MISSING_OBJECTIVE_VALUE",
+        "tokens": [
+          "averageRating"
+        ]
+      }
+    }
+  ]
+}

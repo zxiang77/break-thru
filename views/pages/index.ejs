@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+<body>
+  <% include ../partials/nav.ejs %>
+
+<div class="container">
+  <% for (i = 0; i < 10; i++){ %>
+  <p><%=locals.problem.columns[0].type %>  </p>
+  <% } %>
+</div>
+</body>
+</html>
