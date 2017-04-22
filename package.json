@@ -1,0 +1,26 @@
+{
+  "name": "break-thru",
+  "version": "1.0.0",
+  "description": "for TOM hackerthon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxiang77/break-thru.git"
+  },
+  "keywords": [
+    "disability",
+    "job-searching"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxiang77/break-thru/issues"
+  },
+  "homepage": "https://github.com/zxiang77/break-thru#readme",
+  "dependencies": {
+    "watson-developer-cloud": "^2.29.0"
+  }
+}
