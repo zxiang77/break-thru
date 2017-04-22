@@ -54,10 +54,13 @@ MongoClient.connect(url, function(err, db) {
 var params = require('problem.json');
 
 data = tradeoff_analytics.dilemmas(params, function(error, resolution) {
-    if (error)
+    if (error) {
         console.log('Error:', error)
-    else {
-        console.log(JSON.stringify(resolution, null, 2));
+        return;
+    }
+
+    else
+        {console.log(JSON.stringify(resolution, null, 2));
         data = JSON.stringify(resolution, null, 2);
         data.input = resolution;
         return resolution;
@@ -73,7 +76,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-    response.render('pages/index', data);
+    response.render('pages/index', JSON.parse(data));
 });
 
 app.listen(app.get('port'), function() {
