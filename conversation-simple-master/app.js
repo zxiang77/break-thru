@@ -21,6 +21,9 @@ var bodyParser = require('body-parser'); // parser for post requests
 var Conversation = require('watson-developer-cloud/conversation/v1'); // watson sdk
 
 var app = express();
+var likes = [];
+var dislikes = [];
+var data = {};
 
 // Bootstrap application settings
 app.use(express.static('./public')); // load UI from public folder
@@ -47,6 +50,7 @@ app.post('/api/message', function(req, res) {
       }
     });
   }
+
   var payload = {
     workspace_id: workspace,
     context: req.body.context || {},
@@ -58,6 +62,7 @@ app.post('/api/message', function(req, res) {
     if (err) {
       return res.status(err.code || 500).json(err);
     }
+    console.log("update message is being called");
     return res.json(updateMessage(payload, data));
   });
 });
@@ -69,12 +74,36 @@ app.post('/api/message', function(req, res) {
  * @return {Object}          The response with the updated message
  */
 function updateMessage(input, response) {
+  console.log("inside update message function");
   var responseText = null;
   if (!response.output) {
     response.output = {};
   } else {
+      if (response.output.action === 'likes') {
+    // User asked what time it is, so we output the local system time.
+        if (response.output.tag === "outdoors") {
+            likes.push(response.tag);
+        }
+    
+      console.log(likes);
+
+
+    } else if (response.output.action === 'dislikes') {
+      // User said goodbye, so we're done.
+      console.log(dislikes);
+    }
+      else if (response.output.action === "exit") {
+
+        output = {"likes": likes,
+                  "dislikes": dislikes}
+
+      data = trade_off(likes, dislikes)        
+      return "Generating your analysis"
+    }
+
     return response;
   }
+
   if (response.intents && response.intents[0]) {
     var intent = response.intents[0];
     // Depending on the confidence of the response the app can return different messages.
