@@ -52,7 +52,6 @@ var conversation = new Conversation({
   version: 'v1'
 });
 
-console.log(job_json)
 
 // Endpoint to be call from the client side
 app.post('/api/message', function(req, res) {
@@ -95,11 +94,6 @@ app.post('/api/message', function(req, res) {
  * @param  {Object} response The response from the Conversation service
  * @return {Object}          The response with the updated message
  */
-function algorithm(user_keywords){
-
-
-
-}
 
 
 function scoreJob(weight, jobs) {
@@ -118,7 +112,7 @@ function scoreJob(weight, jobs) {
                 score += weight[wKeys[j]] * ps[wKeys[j]];
             }
 
-            console.log(score);
+            //console.log(score);
         }
 
         sortedJob.push({"key": jobsKeys[i], "value": score});
@@ -131,14 +125,37 @@ function scoreJob(weight, jobs) {
     var selectedJobs = [];
     for (var i = 0; i < sortedJob.length; i ++) {
         if (sortedJob[i].value > 0) {
-          jobs[sortedJob[i]].score = sortedJob[i].value;
-            selectedJobs.push(jobs[sortedJob[i].key]);
+          //jobs[sortedJob[i].key].score = sortedJob[i].value;
+            var job_formatted = {'Job Title': jobs[sortedJob[i].key]['jobtitle'],
+                                 'Job URL': jobs[sortedJob[i].key]['url'],
+                                 'Job Match Score': sortedJob[i].value,
+                                 'Company': jobs[sortedJob[i].key]['company']
+                                }
+            selectedJobs.push(job_formatted);
         }
         else {
             break;
         }
     }
     return selectedJobs;
+}
+
+
+function get_short_url(long_url, login, api_key, func)
+{
+    $.getJSON(
+        "http://api.bitly.com/v3/shorten?callback=?", 
+        { 
+            "format": "json",
+            "apiKey": api_key,
+            "login": login,
+            "longUrl": long_url
+        },
+        function(response)
+        {
+            func(response.data.url);
+        }
+    );
 }
 
 function updateMessage(input, response) {
@@ -148,31 +165,42 @@ function updateMessage(input, response) {
   } else {
       if (response.output.action === 'likes') {
     // User asked what time it is, so we output the local system time.
-          if (response.out.tag === undefined) {
+          if (response.output.tag === undefined) {
 
           }
           else {
-              preference[response.out.tag] += 1;
+              preference[response.output.tag] += 1;
           }
 
 
 
     } else if (response.output.action === 'dislikes') {
       // User said goodbye, so we're done.
-          if (response.out.tag === undefined) {
+          if (response.output.tag === undefined) {
 
           }
           else {
-              preference[response.out.tag] -= 1;
+              preference[response.output.tag] -= 1;
           }
     }
       else if (response.output.action === "exit") {
 
           var recommended = scoreJob(preference, job_json);
           //return "I've done a lot of thinking. Based on what we've talked about, I think these jobs may be a good for you!"
-          response.output.text = JSON.stringify(jsondata);}
+          //var jobs_text = JSON.stringify(recommended)
+          var jobs_text_formatted = '';
+          for (var i = 0; i < recommended.length; i ++) {
+            var title_formatted = '<b>'+ recommended[i]['Job Title'] + '</b><br>';
+            var score_formatted = '<i>Job Match Score:  </i><b>' + recommended[i]['Job Match Score'] + '</b><br>';
+            //var url_formatted = '<i>Job URL: </i>' + recommended[i]['Job URL'] + '<br>';
+            jobs_text_formatted += title_formatted.link(recommended[i]['Job URL']) + score_formatted + '<br>';
 
-    return recommended;
+          }
+
+          response.output.text = jobs_text_formatted;
+        }
+
+    return response;
   }
 
   if (response.intents && response.intents[0]) {
