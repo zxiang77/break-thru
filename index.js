@@ -33,8 +33,14 @@ var tradeoff_analytics = new TradeoffAnalyticsV1({
     password: password
 });
 
-// connecting to mongodb
+// calculating scores
 
+var jsondata = require('./data.json');
+
+// var keys = jsondata.keys();
+
+// connecting to mongodb
+console.log(jsondata);
 var MongoClient = require('mongodb').MongoClient
     , assert = require('assert');
 
@@ -46,7 +52,6 @@ var data = {test : 123};
 MongoClient.connect(url, function(err, db) {
     assert.equal(null, err);
     console.log("Connected successfully to server");
-
     db.close();
 });
 
@@ -59,8 +64,8 @@ data = tradeoff_analytics.dilemmas(params, function(error, resolution) {
         return;
     }
 
-    else
-        {console.log(JSON.stringify(resolution, null, 2));
+    else{
+        // console.log(JSON.stringify(resolution, null, 2));
         data = JSON.stringify(resolution, null, 2);
         data.input = resolution;
         return resolution;
@@ -76,7 +81,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-    response.render('pages/index', JSON.parse(data));
+    response.render('pages/index', jsondata);
 });
 
 app.listen(app.get('port'), function() {

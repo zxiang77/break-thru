@@ -94,10 +94,10 @@ function updateMessage(input, response) {
     }
       else if (response.output.action === "exit") {
 
-        output = {"likes": likes,
-                  "dislikes": dislikes}
+        // output = {"likes": likes,
+        //           "dislikes": dislikes}
 
-      data = trade_off(likes, dislikes)        
+      // data = trade_off(likes, dislikes)
       return "Generating your analysis"
     }
 
