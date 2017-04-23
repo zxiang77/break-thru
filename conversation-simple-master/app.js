@@ -184,21 +184,33 @@ function updateMessage(input, response) {
           }
     }
       else if (response.output.action === "exit") {
+        console.log('In Exit ')
 
           var recommended = scoreJob(preference, job_json);
           //return "I've done a lot of thinking. Based on what we've talked about, I think these jobs may be a good for you!"
           //var jobs_text = JSON.stringify(recommended)
           var jobs_text_formatted = '';
           for (var i = 0; i < recommended.length; i ++) {
-            var title_formatted = '<b>'+ recommended[i]['Job Title'] + '</b><br>';
+            var title_formatted = '<b>'+ recommended[i]['Job Title'] + ', ' + recommended[i]['Company'] + '</b><br>';
             var score_formatted = '<i>Job Match Score:  </i><b>' + recommended[i]['Job Match Score'] + '</b><br>';
             //var url_formatted = '<i>Job URL: </i>' + recommended[i]['Job URL'] + '<br>';
             jobs_text_formatted += title_formatted.link(recommended[i]['Job URL']) + score_formatted + '<br>';
 
           }
+          if (recommended.length === 0){
+            response.output.text = "I'm sorry, we don't have enough information to find some matches for you. Would you like to answer more questions?"
+            return response;
+          }
 
           response.output.text = jobs_text_formatted;
+          console.log('Should have been set!')
+          return response;
         }
+      else if (response.output.action === 'profile'){
+
+          response.output.text = 'Here'.link('https://invis.io/ZMBEQBD78#/230254611_Result') + ' it is!' 
+
+      }
 
     return response;
   }
