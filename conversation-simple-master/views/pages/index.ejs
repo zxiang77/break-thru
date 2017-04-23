@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+  <% include ../partials/nav.ejs %>
+  <!-- a source to logo src mapping -->
+  <% var urls = {"indeed" : "img/indeed.png"} %>
+<div class="container">
+  <!-- replace the returns here -->
+  <div id="job-posts">
+      <% for(var i in locals){ %>
+    <div class="job-post">
+      <div class="jp-header">
+        <h3><%=locals[i].jobtitle%></h3>
+        <img src=<%=urls[locals[i].source]%> />
+      </div>
+      <p class="listed-by"><%=locals[i].company%></p>
+      <div class="post-content">
+        <svg class="job-profile"></svg>
+        <a href=<%=locals[i].url%>> <button>Apply!</button> </a>
+      </div>
+    </div>
+      <%}%>
+  </div>
+  <button>Learn more about different careers</button>
+
+
+
+</div>
+</body>
+</html>

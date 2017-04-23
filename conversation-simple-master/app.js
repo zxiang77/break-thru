@@ -22,8 +22,16 @@ var Conversation = require('watson-developer-cloud/conversation/v1'); // watson 
 var fs = require('fs');
 
 var app = express();
-var likes = [];
-var dislikes = [];
+var preference  = {
+    social: 0,
+    heavy_lifting: 0,
+    detail_oriented: 0,
+    creativity: 0,
+    leadership: 0,
+    technology: 0,
+    loud: 0
+
+};
 
 
 // Bootstrap application settings
@@ -57,6 +65,15 @@ app.post('/api/message', function(req, res) {
     });
   }
 
+    // views is directory for all template files
+  var jsondata = require('./data.json');
+  app.set('views', __dirname + '/views');
+  app.set('view engine', 'ejs');
+
+  app.get('/result', function(request, response) {
+      response.render('pages/index', jsondata);
+  });
+
   var payload = {
     workspace_id: workspace,
     context: req.body.context || {},
@@ -84,6 +101,46 @@ function algorithm(user_keywords){
 
 }
 
+
+function scoreJob(weight, jobs) {
+    var wKeys = Object.keys(weight);
+    var jobsKeys = Object.keys(jobs);
+    var sortedJob = [];
+    for (var i = 0; i < jobsKeys.length; i ++) {
+        var ps = jobs[jobsKeys[i]];
+        var score = 0;
+        for (var j = 0; j < wKeys.length; j ++) {
+
+            if (ps[wKeys[j]] == undefined)  {
+
+            }
+            else {
+                score += weight[wKeys[j]] * ps[wKeys[j]];
+            }
+
+            console.log(score);
+        }
+
+        sortedJob.push({"key": jobsKeys[i], "value": score});
+
+    }
+
+
+    sortedJob.sort(function(a, b) {return b.value - a.value});
+
+    var selectedJobs = [];
+    for (var i = 0; i < sortedJob.length; i ++) {
+        if (sortedJob[i].value > 0) {
+          jobs[sortedJob[i]].score = sortedJob[i].value;
+            selectedJobs.push(jobs[sortedJob[i].key]);
+        }
+        else {
+            break;
+        }
+    }
+    return selectedJobs;
+}
+
 function updateMessage(input, response) {
   var responseText = null;
   if (!response.output) {
@@ -91,23 +148,31 @@ function updateMessage(input, response) {
   } else {
       if (response.output.action === 'likes') {
     // User asked what time it is, so we output the local system time.
-        if (response.output.tag === "outdoors") {
-            likes.push(response.tag);
-        }
-      console.log(likes);
+          if (response.out.tag === undefined) {
+
+          }
+          else {
+              preference[response.out.tag] += 1;
+          }
+
 
 
     } else if (response.output.action === 'dislikes') {
       // User said goodbye, so we're done.
-      console.log(dislikes);
+          if (response.out.tag === undefined) {
+
+          }
+          else {
+              preference[response.out.tag] -= 1;
+          }
     }
       else if (response.output.action === "exit") {
 
-      algorithm(output)
-      return "I've done a lot of thinking. Based on what we've talked about, I think these jobs may be a good for you!"
-    }
+          var recommended = scoreJob(preference, job_json);
+          //return "I've done a lot of thinking. Based on what we've talked about, I think these jobs may be a good for you!"
+          response.output.text = JSON.stringify(jsondata);}
 
-    return response;
+    return recommended;
   }
 
   if (response.intents && response.intents[0]) {
