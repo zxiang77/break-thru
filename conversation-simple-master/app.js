@@ -19,15 +19,19 @@
 var express = require('express'); // app server
 var bodyParser = require('body-parser'); // parser for post requests
 var Conversation = require('watson-developer-cloud/conversation/v1'); // watson sdk
+var fs = require('fs');
 
 var app = express();
 var likes = [];
 var dislikes = [];
-var data = {};
+
 
 // Bootstrap application settings
 app.use(express.static('./public')); // load UI from public folder
 app.use(bodyParser.json());
+
+var job_buffer = fs.readFileSync('public/data.json')
+var job_json = JSON.parse(job_buffer)
 
 // Create the service wrapper
 var conversation = new Conversation({
@@ -39,6 +43,8 @@ var conversation = new Conversation({
   version_date: '2016-10-21',
   version: 'v1'
 });
+
+console.log(job_json)
 
 // Endpoint to be call from the client side
 app.post('/api/message', function(req, res) {
@@ -62,7 +68,6 @@ app.post('/api/message', function(req, res) {
     if (err) {
       return res.status(err.code || 500).json(err);
     }
-    console.log("update message is being called");
     return res.json(updateMessage(payload, data));
   });
 });
@@ -73,8 +78,13 @@ app.post('/api/message', function(req, res) {
  * @param  {Object} response The response from the Conversation service
  * @return {Object}          The response with the updated message
  */
+function algorithm(user_keywords){
+
+
+
+}
+
 function updateMessage(input, response) {
-  console.log("inside update message function");
   var responseText = null;
   if (!response.output) {
     response.output = {};
@@ -84,7 +94,6 @@ function updateMessage(input, response) {
         if (response.output.tag === "outdoors") {
             likes.push(response.tag);
         }
-    
       console.log(likes);
 
 
@@ -94,11 +103,11 @@ function updateMessage(input, response) {
     }
       else if (response.output.action === "exit") {
 
-        output = {"likes": likes,
-                  "dislikes": dislikes}
+      output = {"likes": likes,
+                "dislikes": dislikes}
 
-      data = trade_off(likes, dislikes)        
-      return "Generating your analysis"
+      algorithm(output)        
+      return "I've done a lot of thinking. Based on what we've talked about, I think these jobs may be a good for you!"
     }
 
     return response;
