@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4efb8dc-d1ad-45b1-8acf-2c2430de7883" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conversation-simple-master/app.js" afterPath="$PROJECT_DIR$/conversation-simple-master/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/WiredTiger.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/WiredTigerLAS.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/_mdb_catalog.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/collection-0--5899091501331727916.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/collection-2--5899091501331727916.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/diagnostic.data/metrics.2017-04-22T19-57-03Z-00000" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/diagnostic.data/metrics.interim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/index-1--5899091501331727916.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/index-3--5899091501331727916.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/index-4--5899091501331727916.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/journal/WiredTigerLog.0000000001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/journal/WiredTigerPreplog.0000000001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/journal/WiredTigerPreplog.0000000002" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/sizeStorer.wt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/storage.bson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/WiredTiger" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/WiredTiger.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/WiredTiger.turtle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/db/mongod.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.json" afterPath="$PROJECT_DIR$/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indeed_tagging.py" afterPath="$PROJECT_DIR$/indeed_tagging.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/index.ejs" afterPath="$PROJECT_DIR$/views/pages/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/header.ejs" afterPath="$PROJECT_DIR$/views/partials/header.ejs" />
     </list>
@@ -33,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conversation-simple-master/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2486">
-              <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+              <caret line="174" column="23" lean-forward="false" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -47,7 +65,7 @@
         <entry file="file://$USER_HOME$/Downloads/sortJob.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+              <caret line="36" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -63,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/pages/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="105">
+              <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -77,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,6 +162,7 @@
       <find>jsondata</find>
       <find>server</find>
       <find>app.use(express.static(__dirname + '/public'));</find>
+      <find>dislike</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,10 +179,10 @@
         <option value="$PROJECT_DIR$/watson_json/output.json" />
         <option value="$PROJECT_DIR$/conversation-simple-master/.env" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/views/pages/index.ejs" />
         <option value="$PROJECT_DIR$/views/partials/header.ejs" />
         <option value="$USER_HOME$/Downloads/sortJob.js" />
         <option value="$PROJECT_DIR$/conversation-simple-master/app.js" />
+        <option value="$PROJECT_DIR$/views/pages/index.ejs" />
       </list>
     </option>
   </component>
@@ -372,12 +391,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492825215488</updated>
-      <workItem from="1492825217119" duration="23509000" />
+      <workItem from="1492825217119" duration="23592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23509000" />
+    <option name="totallyTimeSpent" value="23592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -548,18 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -567,7 +578,7 @@
     <entry file="file://$USER_HOME$/Downloads/sortJob.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+          <caret line="36" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -575,7 +586,15 @@
     <entry file="file://$PROJECT_DIR$/conversation-simple-master/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2486">
-          <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+          <caret line="174" column="23" lean-forward="false" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding />
         </state>
       </provider>
