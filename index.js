@@ -35,12 +35,11 @@ var tradeoff_analytics = new TradeoffAnalyticsV1({
 
 // calculating scores
 
-var jsondata = require('./data.json');
 
 // var keys = jsondata.keys();
 
 // connecting to mongodb
-console.log(jsondata);
+// console.log(jsondata);
 var MongoClient = require('mongodb').MongoClient
     , assert = require('assert');
 
@@ -72,7 +71,11 @@ data = tradeoff_analytics.dilemmas(params, function(error, resolution) {
         }
 });
 
+var jsondata = require('./data.json');
+
 app.set('port', (process.env.PORT || 5000));
+
+
 
 app.use(express.static(__dirname + '/public'));
 
